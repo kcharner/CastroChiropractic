@@ -1,0 +1,368 @@
+/*custom css*/
+
+/*ALL FILES*/
+.fixedNav {
+	background-color: #BE6E39;
+	color: white;
+	border: none;
+	border-bottom: 2px solid #CDA34F;
+	font-family: Yesteryear;
+}
+
+.navRight {
+	float: right;
+	padding: .75%;
+	margin-right: 3%;
+	font-size: 20px;
+}
+
+#customPhone {
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+.container-fluid {
+	padding-left: 0%;
+}
+
+.homeNav {
+	margin-top: 3.5%;
+	border: none;
+	background-color: white;
+}
+
+#logoBlock {
+	width: 395px;
+	background-color: #418A7C;
+	border-bottom: 1px solid #2C464F;
+	border-right: 1px solid #2C464F;
+	padding: 0%;
+	min-height: 120px;
+}
+
+#customLogo {
+	color: black;
+	margin-top: 7%;
+	margin-left: 5%;
+	width: 90%;
+	padding: 4%;
+	padding-top: 6%;
+	font-family: Stalemate;
+	font-size: 70px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#chiroPhone {
+	color: white;
+}
+
+a {
+	padding-top: 6%;
+	font-size: 21px;
+	font-family: Poppins;
+}
+
+.jumbotron {
+	min-height: 700px;
+	background-color: #F4F1E2;
+	padding-top: 0%;
+}
+
+#jumboHeader {
+	font-size: 35px;
+	padding-top: 3%; 
+	font-family: Cherry Cream Soda;
+}
+
+#chiroCareContainer {
+	padding-left: 0%;
+	margin-left: 0%;
+}
+ 
+#chiroCareLabel {
+	background-color: #D5C4A1;
+	margin-top: 15%;
+	padding-bottom: 2%;
+}
+
+.caption-btn {
+	background-color: #2C464F;
+}
+
+#customVid {
+	
+}
+
+.mid-grids {
+	background-color: #F4F1E2;
+}
+
+.footer {
+	background-color: #D5C4A1;
+}
+
+/*about page*/
+
+#aboutContainer {
+	width: 100%;
+	padding-left: 0%;
+	background-color: #F4F1E2;
+	padding-right: 3%;
+}
+
+#castroBio {
+	padding-left: 2.5%;
+}
+
+#portraitBlock {
+	margin-top: 1.5%;
+}
+
+#castroPortrait {
+	border: 1px solid black;
+	max-height: 602px;
+}
+
+/*contact page*/
+
+.header {
+	text-align: center;
+	font-family: Cherry Cream Soda;
+	font-weight: bold;
+	margin-bottom: 4%;
+	color: #2C464F;
+}
+
+.subHeader {
+	text-align: center;
+	font-size: 23px;
+	color: #2C464F;
+}
+
+.addressInfo {
+	text-align: center;
+	font-style: italic;
+}
+
+.hours {
+	font-weight: bold;
+	font-style: normal;
+	font-family: Yesteryear;
+	font-size: 25px;
+}
+
+#contactContainer {
+	padding-left: 0%;
+	padding-right: 0%;
+	background-color: #F4F1E2;
+}
+
+@media only screen and (max-width:1050px) {
+
+	.homeNav {
+	    margin-top: 4.5%; 
+	    width: 100%;
+	}
+
+	.container-fluid {
+		padding-right: 0%;
+	}
+
+	#logoBlock {
+		width: 100%;
+		border-right: none;
+	}
+
+	#customLogo {
+		font-size: 100px;
+		width: 80%;
+		margin-top: 2%;
+		margin-left: 10%; 
+		margin-bottom: 3.5%;
+		padding-bottom: 7%;
+	}
+
+	.navItems {
+		font-size: 30px;
+	}
+
+	#chiroCareLabel {
+			width: 40%;
+		}
+
+	#jumboHeader {
+		padding-left: 2%;
+		padding-bottom: 3%;
+	}
+
+	#mainContent {
+		padding-left: 2%;
+	}
+
+	.caption-btn {
+		width: 40%;
+		margin-left: 2%;
+		text-align: center; 
+	}
+
+	.gridImg {
+		display: none;
+	}
+
+	#careDiv {
+		width: 100%;
+		padding-left: 6%;
+		background-color: white;
+		padding-top: 1%;
+	}
+
+}
+
+@media only screen and (max-width:1000px) {
+
+	.fixedNav {
+		display: none;
+	}
+	
+	.homeNav {
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+}
+
+
+@media only screen and (max-width:800px) {
+
+	.homeNav {
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+
+	.container {
+		padding-right: 0%;
+	}
+
+	#logoBlock {
+		padding: 2.5%;
+		margin-left: 0%;
+		margin-right: 0%;
+		min-height: 90px;
+	}
+
+	#customLogo {
+		padding-left: 1%;
+		padding-right: 0%;
+	}
+
+	#jumboHeader {
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	.caption-btn {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	#scheduleBtn {
+		font-size: 20px;
+		margin-bottom: 4%;
+	}
+
+	.gridImg {
+		display: none;
+	}
+
+	.header {
+		margin-bottom: 6%;
+	}
+
+	.contact-map {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#locationDiv {
+		margin-top: 8%;
+		margin-bottom: 8%;
+	}
+}
+
+@media only screen and (max-width:750px) {
+	
+	#customLogo {
+		margin-left: 4%;
+		margin-top: 3%;
+		padding-bottom: 7%;
+	}
+
+	#hamburger {
+		margin-top: 6%;/*
+		min-height: 50px;
+		min-width: 50px;*/
+	}
+
+	.caption-btn {
+		width: 80%;
+		margin-left: 10%;
+	}
+}
+
+@media only screen and (max-width:750px) {
+	#customLogo {
+		padding-bottom: 9%;
+	}
+}
+
+@media only screen and (max-width:425px) {
+
+	#customLogo {
+		width: 80%;
+		padding-left: 0%;
+		margin-left: 0%;
+		padding-right: 0%;
+		margin-top: 4%;
+		font-size: 60px;
+	}
+	
+	#hamburger {
+		margin-top: 4%;
+		margin-right: 1%;
+	}
+
+	#chiroCareLabel {
+		width: 100%;
+		margin-top: 7%;
+	}
+
+	#secondaryHeader {
+		text-align: center;
+	}
+
+	.about-btn {
+		width: 80%;
+		margin-left: 10%;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width:400px) {
+
+	#customLogo {
+		width: 70%;
+		margin-top: 1%;
+		font-size: 50px;
+	}
+
+	#hamburger {
+		margin-top: 5%;
+		margin-right: 5%;
+	}
+}
+
+
+
