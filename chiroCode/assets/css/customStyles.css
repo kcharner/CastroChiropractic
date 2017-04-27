@@ -141,6 +141,7 @@ a {
 	text-align: center;
 	font-size: 23px;
 	color: #2C464F;
+	font-family: Poppins;
 }
 
 .addressInfo {
@@ -155,10 +156,28 @@ a {
 	font-size: 25px;
 }
 
+.contact {
+	background-color: #F4F1E2;
+}
+
 #contactContainer {
 	padding-left: 0%;
 	padding-right: 0%;
+}
+
+/*specialties page*/
+
+.services {
 	background-color: #F4F1E2;
+}
+
+.treatmentHeaders {
+	text-align: left;
+}
+
+.specialty {
+	font-family: Poppins;
+	text-transform: none;
 }
 
 @media only screen and (max-width:1050px) {
