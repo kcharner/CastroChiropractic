@@ -9,12 +9,12 @@
 	<link href="assets/css/customStyles.css" rel='stylesheet' type='text/css'>
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Arimo:400,700|Poppins|Michroma|Cherry+Cream+Soda|Stalemate|Yesteryear' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<nav class="navbar navbar-default navbar-fixed-top fixedNav">
-	    <p class="nav navbar-nav navbar-right navRight"> Call Us: <a href="tel:714-313-5558" title="Chiropractic Telephone Number" id="chiroPhone">714-313-5558</a></p>
-	</nav>
+        <p class="nav navbar-nav navbar-right navRight" id="test1"> Call Us: <a href="tel:714-313-5558" title="Chiropractic Telephone Number" id="chiroPhone">714-313-5558</a></p>
+    </nav>
 	<!--start primary navbar-->
 	<nav class="navbar navbar-default topNav homeNav">
 	  <div class="container-fluid">
@@ -30,13 +30,13 @@
 	    </div>
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav navbar-right">
-	          <li class="active"><a href="index.html">Home</a></li>
-	          <li><a href="about.html">About Dr. Oscar</a></li>
-	          <li><a href="services.html">Specialties</a></li>
-	          <li><a href="appointments.html">Appointments</a></li>
-	          <li><a href="contact.html">Contact</a></li>
-	      </ul>
+	      <ul class="nav navbar-nav navbar-right" id="navList">
+              <li><a href="index.html" class="navItems">Home</a></li>
+              <li><a href="about.html" class="navItems">About Dr. Oscar</a></li>
+              <li><a href="services.html" class="navItems">Specialties</a></li>
+              <li><a href="appointments.html" class="navItems">Appointments</a></li>
+              <li><a href="contact.html" class="navItems">Contact</a></li>
+          </ul>
 	    </div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
 	</nav>
@@ -48,19 +48,19 @@
 				<div class="col-md-8 services-left">
 					<h1 class="header treatmentHeaders">Our Services</h1>
 					<div class="services-left-grids">
-						<div class="col-md-6 services-left-grid">
-							<h3 class="specialty">Diversified Manual Manipulation</h3>
-							<p>PLEASE PROVIDE SUMMARY</p>
+						<div class="col-md-8 services-left-grid">
+							<h3 class="specialty" id="diverse">Diversified Manual Manipulation</h3>
+							<p>This is a widely used type of chiropractic manipulation/adjustment that includes most of the procedures taught in chiropractic institutions.</p>
 							<a class="more-btn" href="#" data-toggle="modal" data-target="#sampleModal">More</a>
 							<!-- start modal -->
 							<div class="modal fade" id="sampleModal">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title"></h5>
+							        <h5 class="modal-title">Diversified Manual Manipulation</h5>
 							      </div>
 							      <div class="modal-body">
-							        <p>Modal body text goes here.</p>
+							        <p>This is a widely used type of chiropractic manipulation/adjustment that includes most of the procedures taught in chiropractic institutions. This technique is the most commonly used of all chiropractic techniques and is the one probably most familiar to patients. The Diversified manipulation/adjustment entails a high velocity, low-amplitude thrust delivered by hand and possibly with assistance from a table or block. This usually results in a cavitation of a joint (quick, shallow thrusts that cause the popping noise often associated with a chiropractic manipulation/adjustment). As the name implies, the Diversified Technique can be used to treat many of the joints in the body and is the primary technique used by the doctor in the office.</p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -69,19 +69,30 @@
 							  </div>
 							</div>
 						</div>
-						<div class="col-md-6 services-left-grid">
-							<h3 class="specialty">Active Release Technique</h3>
-							<p>PLEASE PROVIDE SUMMARY</p>
+						<!-- <div class="col-md-2 services-left-grid">
+							<img src="assets/images/image1.jpeg" alt="">
+						</div> -->
+						<div class="col-md-8 services-left-grid">
+							<h3 class="specialty" id="art">Active Release Technique</h3>
+							<p>ART is a patented, state of the art soft tissue system/movement based massage technique that treats problems with muscles, tendons, ligaments, fascia and nerves.</p>
 							<a class="more-btn" href="#" data-toggle="modal" data-target="#sampleModal2">More</a>
 							<!-- start modal -->
 							<div class="modal fade" id="sampleModal2">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title"></h5>
+							        <h5 class="modal-title">Active Release Technique</h5>
 							      </div>
 							      <div class="modal-body">
-							        <p>Modal body text goes here.</p>
+							        <p>ART is a patented, state of the art soft tissue system/movement based massage technique that treats problems with muscles, tendons, ligaments, fascia and nerves. Headaches, back pain, carpal tunnel syndrome, shin splints, shoulder pain, sciatica, plantar fasciitis, knee problems, and tennis elbow are just a few of the many conditions that can be resolved quickly and permanently with ART. What separates ART treatment from conventional massage or muscle work, is the precise directed tension and the very specific movement to ensure the smooth movement of tissue, the directed breaking up of scar tissue and the ability restore function with minimal treatment time. These conditions all have one important thing in common: they are often a result of overused muscles.</p>
+							        <p>How do overuse conditions occur? Over-used muscles (and other soft tissues) change in three important ways:</br>
+							        	<ul>
+							        		<li>acute conditions (pulls, tears, collisions, etc)</li>
+							        		<li>accumulation of small tears (micro-trauma)</li>
+							        		<li>not getting enough oxygen (hypoxia)</li>
+							        	</ul>
+							        </p>
+							        <p>Each of these factors can cause your body to produce tough, dense scar tissue in the affected area. This scar tissue binds up and ties down tissues that need to move freely. As scar tissue builds up, muscles become shorter and weaker, tension on tendons causes tendonitis, and nerves can become trapped. This can cause reduced range of motion, loss of strength, and pain. If a nerve is trapped you may also feel tingling, numbness, and weakness.</p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -90,19 +101,20 @@
 							  </div>
 							</div>
 						</div>
-						<div class="col-md-6 services-left-grid">
-							<h3 class="specialty">Disc Decompression Therapy</h3>
-							<p>PLEASE PROVIDE SUMMARY</p>
+						<div class="col-md-8 services-left-grid">
+							<h3 class="specialty" id="disc">Disc Decompression Therapy</h3>
+							<p>Disc decompression therapy (decompression traction) is an alternative, conservative, noninvasive, nonsurgical procedure of applying axial traction to the spine.</p>
 							<a class="more-btn" href="#" data-toggle="modal" data-target="#sampleModal3">More</a>
 							<!-- start modal -->
 							<div class="modal fade" id="sampleModal3">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title"></h5>
+							        <h5 class="modal-title">Disc Decompression Therapy</h5>
 							      </div>
 							      <div class="modal-body">
-							        <p>Modal body text goes here.</p>
+							        <p>Disc decompression therapy (decompression traction) is an alternative, conservative, noninvasive, nonsurgical procedure of applying axial traction to the spine. It can be used in the treatment of several conditions, including low back or neck pain associated with lumbar disc bulges or herniations, degenerative disc disease, posterior facet syndrome, failed back syndrome, spinal stenosis and radiculopathy (sciatica).</p>
+							        <p>The clinical objectives of this therapy include relief of disabling low back pain, neck, arm or leg pain by reducing the pressure placed on spinal nerves, allowing the healing process to begin.</p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -111,19 +123,47 @@
 							  </div>
 							</div>
 						</div>
-						<div class="col-md-6 services-left-grid">
-							<h3 class="specialty">Hako-Med Therapy</h3>
-							<p>PLEASE PROVIDE SUMMARY</p>
+						<div class="col-md-8 services-left-grid">
+							<h3 class="specialty" id="tens">TENS/EMS Therapy</h3>
+							<p>TENS stands for (Transcutaneous Electrical Nerve Stimulation,) which are predominately used for nerve related pain conditions (acute and chronic conditions.)</p>
 							<a class="more-btn" href="#" data-toggle="modal" data-target="#sampleModal4">More</a>
-							<!-- start modal -->
+							
 							<div class="modal fade" id="sampleModal4">
 							  <div class="modal-dialog" role="document">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title"></h5>
+							        <h5 class="modal-title">TENS/EMS Therapy</h5>
 							      </div>
 							      <div class="modal-body">
-							        <p>Modal body text goes here.</p>
+							        <p>TENS machines works by sending stimulating pulses across the surface of the skin and along the nerve strands.</p>
+							        <p>The stimulating pulses help prevent pain signals from reaching the brain.Tens devices also help stimulate your body to produce higher levels of its own natural painkillers, called "endorphins".</p>
+									<p>E.M.S. stands for (Electrical Muscle Stimulation) which are predominately used to prevent, or reduce, muscle atrophy. Atrophy is the weakening and loss of muscle tone, which is usually experienced after surgeries or injuries. EMS has been proven to be an effective means of preventing muscle atrophy. EMS also helps by increasing blood flow to muscles, increasing range of motion, increasing muscle strength, as well as enhancing muscle endurance. EMS has pain management attributes in helping muscle related pain, such as a spastic muscle, sore muscles, or tight muscles.</p>
+									<p>Both methods have been proven to be an effective pain therapy option to help ease the effects of acute or chronic pain.</p>
+							      </div>
+							      <div class="modal-footer">
+							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				
+						<div class="col-md-8 services-left-grid">
+							<h3 class="specialty" id="horizontal">Horizontal Therapy</h3>
+							<p>Horizontal Therapy is the most sophisticated form of electrotherapy available via communication between cells. It acts to influence the chemical messengers of the surrounding cells.</p>
+							<a class="more-btn" href="#" data-toggle="modal" data-target="#sampleModal5">More</a>
+							<!-- start modal -->
+							<div class="modal fade" id="sampleModal5">
+							  <div class="modal-dialog" role="document">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title">Horizontal Therapy</h5>
+							      </div>
+							      <div class="modal-body">
+							        <p>Horizontal Therapy is much like an electrical stimulation machine or a TENS unit. It acts very specifically and within certain electrical parameters to influence the target tissue at a cellular level. This type of therapy tends to carry the possibility of long lasting benefits. It is aimed to bring about an analgesic pain relieving affect by calming down nerve pain without piercing through the skin. This is done by placing specific surface electrodes on the skin and introducing specific signal impulses to block nerve pain as well as reducing muscle spasm.</p>
+							        <p>What Types of Conditions Are Treated with Horizontal Therapy?</p>
+							        <p>Conditions such as low back pain, neck pain, fibromyalgia, myofascial pain syndrome, overuse injuries, muscle re-education, headaches, post -operative pain, muscle spasm, nerve pain, joint swelling, inflammation, Spinal Stenosis, Frozen Shoulder, Sciatica, Carpal Tunnel, Neuralgia, Depression...and many other conditions can be effectively treated with the Horizontal Therapy.</p>
 							      </div>
 							      <div class="modal-footer">
 							        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -138,7 +178,7 @@
 					<h1 class="header treatmentHeaders">Specialties</h1>
 					<div class="services-left-grid" id="treatmentList">
 						<h3>WE SPECIALIZE IN TREATING:</h3>
-						<ul>
+						<ul id="list">
 							<li>acute/chronic neck and back pain</li>
 							<li>joint misalignments: spinal, upper and lower extremeties</li>
 							<li>disc herniation/degeneration </li>
@@ -165,9 +205,25 @@
 	</div>	
 	<!-- footer -->
 	<div class="footer">
-		<div class="container">
-		</div>
-	</div>
+	    	<div class="container foot">
+	            <div class="col-lg-4 footerDiv">
+              		<h5>Carlsbad Location & Hours</h5>
+              		<a href="contact.html" class="location" title="Chiropractic Location - Carlsbad, CA">7220 Avenida Encinas, Unit 110-B<br>Carlsbad, CA</a><br>
+              		<h6>Monday: 9am-1:30pm <br>Fri: 2pm-6pm</h6>
+            	</div>
+            	<div class="col-lg-4 footerDiv">
+              		<h5>Palm Springs Location & Hours</h5>
+              		<a href="contact.html" class="location" title="Chiropractic Location - Carlsbad, CA">33669 Date Palm Drive<br>Cathedral City, CA</a><br>
+              		<h6>Tuesday: 2pm-6pm <br>Thursday: 2pm-6pm</h6>
+            	</div>
+	            <div class= "col-lg-4 footerDiv">
+	              	<h5 class="contactDetails">Contact Us</h5>
+	              	<p class="location">Ph: 714-313-5558</p>
+	              	<p class="location" id="email">Em: Info@oscarcastrochiropractic.com</p>
+	              	<p id="mobileEmail"><a class="location" href="contact.html">Email Us Here</a></p>
+            	</div>
+	        </div>    
+	    </div>
 	<!-- scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

@@ -1,12 +1,21 @@
 /*custom css*/
 
 /*ALL FILES*/
+
+#mobileEmail {
+	display: none;
+}
+
+#mobilePic {
+	display: none;
+}
+
 .fixedNav {
 	background-color: #BE6E39;
 	color: white;
 	border: none;
 	border-bottom: 2px solid #CDA34F;
-	font-family: Yesteryear;
+	font-family: Poppins;
 }
 
 .navRight {
@@ -16,8 +25,9 @@
 	font-size: 20px;
 }
 
-#customPhone {
+#chiroPhone {
 	color: white;
+	font-size: 18px;
 }
 
 ul {
@@ -32,6 +42,15 @@ ul {
 	margin-top: 3.5%;
 	border: none;
 	background-color: white;
+}
+
+#navList {
+	margin-top: 2%;
+}
+
+.navItems {
+	font-family: Yesteryear;
+	font-size: 36px;
 }
 
 #logoBlock {
@@ -66,39 +85,86 @@ a {
 	font-family: Poppins;
 }
 
+h5 {
+	font-size: 18px;
+	font-family: Cherry Cream Soda;
+	text-decoration: underline;
+}
+
+h6 {
+	font-family: Yesteryear;
+	font-size: 22px;
+	letter-spacing: 1.5px;
+	color: black;
+}
+
+.location {
+	font-size: 15px;
+	color: black;
+	font-family: Poppins;
+}
+
+
+/*index page*/
+
 .jumbotron {
-	min-height: 700px;
 	background-color: #F4F1E2;
 	padding-top: 0%;
+	padding-bottom: 0%;
+	border-top: 1px solid #E9CCB1;
 }
 
 #jumboHeader {
-	font-size: 35px;
-	padding-top: 3%; 
+	font-size: 32px;
+	padding-top: 0%; 
 	font-family: Cherry Cream Soda;
 }
 
 #chiroCareContainer {
+	width: 100%;
 	padding-left: 0%;
 	margin-left: 0%;
+	margin-right: 0%;
+	padding-right: 0%;
 }
  
 #chiroCareLabel {
 	background-color: #D5C4A1;
-	margin-top: 15%;
-	padding-bottom: 2%;
+	margin-top: 9%;
+	margin-bottom: 10%;
+	padding-bottom: 1%;
+	border: 3px solid #E9CCB1;
 }
 
 .caption-btn {
 	background-color: #2C464F;
 }
 
-#customVid {
-	
+#oscarCastroMD {
+	width: 95%;
+	min-height: 525px;
+	margin-left: 2.5%;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+
+#mainContent {
+	font-size: 18px;
+	margin-bottom: 0%;
+}
+
+#careDiv {
+	padding-left: 3%;
+}
+
+.gridImg {
+	margin-top: 10%;
 }
 
 .mid-grids {
+	margin-top: 3%;
 	background-color: #F4F1E2;
+	border-bottom: 1px solid #E9CCB1;
 }
 
 .footer {
@@ -119,20 +185,55 @@ a {
 }
 
 #portraitBlock {
-	margin-top: 1.5%;
+	background-image: url("../images/oscarcastromd.png");
+	min-height: 602px;
+	background-repeat: no-repeat;
 }
 
-#castroPortrait {
-	border: 1px solid black;
-	max-height: 602px;
+/*specialties page*/
+
+#list {
+	list-style-type: circle;
 }
 
+.services-left-grid {
+	font-family: Poppins;
+}
+
+#testImg {
+	background-image: url("../images/image1.jpeg");
+}
+
+img {
+	padding-left: 25%;
+}
+
+/*appointments page*/
+
+.forms {
+	/*background-color: grey;*/
+	padding-top: .5%;
+	padding-bottom: .5%;
+	text-align: center;
+	color: blue;
+}
+
+#patientForms {
+	text-align: center;
+	font-size: 18px;
+	font-family: Poppins; 
+}
+
+#schedulingContent {
+	background-color: #F4F1E2;
+}
 /*contact page*/
 
 .header {
 	text-align: center;
 	font-family: Cherry Cream Soda;
 	font-weight: bold;
+	margin-top: 4%;
 	margin-bottom: 4%;
 	color: #2C464F;
 }
@@ -154,6 +255,7 @@ a {
 	font-style: normal;
 	font-family: Yesteryear;
 	font-size: 25px;
+	letter-spacing: 1.5px;
 }
 
 .contact {
@@ -163,6 +265,11 @@ a {
 #contactContainer {
 	padding-left: 0%;
 	padding-right: 0%;
+}
+
+.maps {
+	width: 40%;
+	margin-left: 30%;
 }
 
 /*specialties page*/
@@ -180,11 +287,27 @@ a {
 	text-transform: none;
 }
 
+@media only screen and (max-width:1375px) {
+	
+	#oscarCastroMD {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	#castroBio {
+		padding-right: 6%;
+	}
+}
+
 @media only screen and (max-width:1050px) {
 
 	.homeNav {
 	    margin-top: 4.5%; 
 	    width: 100%;
+	}
+
+	#navList {
+		width: 100%;
 	}
 
 	.container-fluid {
@@ -206,26 +329,41 @@ a {
 	}
 
 	.navItems {
-		font-size: 30px;
+		font-size: 45px;
 	}
 
 	#chiroCareLabel {
-			width: 40%;
-		}
+		width: 85%;
+		margin-left: 7.5%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		text-align: center;
+	}
 
 	#jumboHeader {
-		padding-left: 2%;
+		padding-left: 0%;
 		padding-bottom: 3%;
 	}
 
 	#mainContent {
-		padding-left: 2%;
+		padding-left: 0%;
+	}
+
+	#oscarCastroMD {
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 0%;
 	}
 
 	.caption-btn {
 		width: 40%;
-		margin-left: 2%;
 		text-align: center; 
+	}
+
+	.about-btn {
+		width: 40%;
+		margin-left: 30%;
+		text-align: center;
 	}
 
 	.gridImg {
@@ -234,9 +372,19 @@ a {
 
 	#careDiv {
 		width: 100%;
-		padding-left: 6%;
+		padding-left: 8%;
+		padding-right: 5%;
 		background-color: white;
 		padding-top: 1%;
+	}
+
+	.footerDiv {
+		width: 33.33%;
+		float: left;
+	}
+
+	#portraitBlock {
+		background-image: url("../images/oscarcastromdTablet.png");
 	}
 
 }
@@ -251,8 +399,67 @@ a {
 		margin-top: 0%;
 		margin-bottom: 0%;
 	}
+
+	#scheduleBtn {
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	#scheduleBtn {
+		background-color: #BE6E39;
+	}
+
+	#diverse {
+		color: #BE6E39;
+	}
+
+	#art {
+		color: #BE6E39;
+	}
+
+	#disc {
+		color: #BE6E39;
+	}
+
+	#horizontal {
+		color: #BE6E39;
+	}
+
+	#tens {
+		color: #BE6E39;
+	}
 }
 
+@media only screen and (max-width:825px) {
+	
+	.location {
+		font-size: 13px;
+	}
+
+	.navItems {
+		font-size: 32px;
+	}
+
+	#aboutContainer {
+		padding-right: 0%;
+	}
+
+	#castroBio {
+		padding-right: 3%;
+		padding-left: 3%;
+	}
+
+	#portraitBlock {
+		display: none;
+	}
+
+	#mobilePic {
+		display: inline-block;
+		width: 50%;
+		margin-left: 25%;
+		padding-bottom: 5%;
+	}
+}
 
 @media only screen and (max-width:800px) {
 
@@ -329,11 +536,52 @@ a {
 		width: 80%;
 		margin-left: 10%;
 	}
-}
 
-@media only screen and (max-width:750px) {
+	#logoBlock {
+		max-height: 70px;
+	}
+
 	#customLogo {
-		padding-bottom: 9%;
+		font-size: 50px;
+		margin-bottom: 0%;
+		margin-top: 0%;
+		padding-bottom: 7%;
+		padding-top: 3%;
+	}
+
+	#hamburger {
+		margin-top: 1.5%;
+	}
+
+	.navItems {
+		margin-left: 3%;
+	}
+
+	#chiroCareLabel {
+		background-color: #F4F1E2;
+		border: none;
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+
+	#jumboHeader {
+		display: none;
+	}
+
+	#mainContent {
+		display: none;
+	}
+
+	#oscarCastroMD {
+		margin-top: 0%;
+	}
+
+	#email {
+		display: none;
+	}
+
+	#mobileEmail {
+		display: inline-block;
 	}
 }
 
@@ -347,6 +595,10 @@ a {
 		margin-top: 4%;
 		font-size: 60px;
 	}
+
+	#logoBlock {
+		min-height: 100px;
+	}
 	
 	#hamburger {
 		margin-top: 4%;
@@ -355,16 +607,37 @@ a {
 
 	#chiroCareLabel {
 		width: 100%;
-		margin-top: 7%;
+		padding-left: 0%;
+		margin-left: 0%;
 	}
 
 	#secondaryHeader {
 		text-align: center;
 	}
 
+	#oscarCastroMD {
+		min-height: 250px;
+	}
+
 	.about-btn {
 		width: 80%;
 		margin-left: 10%;
+		text-align: center;
+	}
+
+	#mobilePic {
+		width: 80%;
+		margin-left: 10%;
+		padding-bottom: 5%;
+	}
+
+	.foot {
+		padding-left: 0%;
+	}
+
+	.footerDiv {
+		clear: both;
+		width: 100%;
 		text-align: center;
 	}
 }
@@ -373,8 +646,8 @@ a {
 
 	#customLogo {
 		width: 70%;
-		margin-top: 1%;
-		font-size: 50px;
+		margin-top: 6%;
+		font-size: 45px;
 	}
 
 	#hamburger {

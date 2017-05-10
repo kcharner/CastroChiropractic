@@ -1,13 +1,11 @@
 $('#palmSpringsMap').hide();
 
+$("#palmSpringsOffice").on("click", function() {
+		$('#carlsbadMap').hide();
+		$('#palmSpringsMap').show();
+});
 
-function display() {
-	$('#carlsbadMap').hide();
-	$('#palmSpringsMap').show();
-}
-
-// $("#palmSpringsOffice").on("click", display());
-
-
-
-// $('#carlsbadMap').hide();
+$("#sanDiegoOffice").on("click", function() {
+		$('#carlsbadMap').show();
+		$('#palmSpringsMap').hide();
+});

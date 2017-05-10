@@ -30,8 +30,8 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html" class="navItems">Home</a></li>
+          <ul class="nav navbar-nav navbar-right" id="navList">
+              <li><a href="index.html" class="navItems">Home</a></li>
               <li><a href="about.html" class="navItems">About Dr. Oscar</a></li>
               <li><a href="services.html" class="navItems">Specialties</a></li>
               <li><a href="appointments.html" class="navItems">Appointments</a></li>
@@ -44,35 +44,51 @@
     <div class="jumbotron">
       <div class="container" id="chiroCareContainer">
           <div class="col-lg-5" id="chiroCareLabel">
-            <h1 id="jumboHeader">Schedule Today</h1>
-            <p id="mainContent">Blurb about the importance of care here . . . text text text text text text text text text text text</p>
-            <a class="caption-btn" href="appintments.html" id="scheduleBtn">Book Now</a>
+            <h1 id="jumboHeader">Chiropractic Care</h1>
+            <p id="mainContent">The human spine is comprised of thousands of nerves, each one transmitting messages to the rest of your body. Over time the spinal column becomes compressed, inhibiting these nerves and causing pain and other issues in the process.<br><br>As a doctor of chiropractic, Dr. Castro works to restore your health by realigning the spine through a variety of techniques.</p>
+            <a class="caption-btn" href="appointments.html" id="scheduleBtn">Book Now</a>
           </div>
-          <div class="col-lg-7" id="customVid">
+          <div class="col-lg-7 nopadding">
             <!-- iframe to go here -->
+            <iframe id="oscarCastroMD" src="https://www.youtube.com/embed/Ykl5fb2HeoA" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
     </div>
     <div class="mid-grids">
-      <div class="col-md-7 gridImg">
-        <img src="assets/images/backPain.png"" alt="">
+      <div class="col-lg-5 gridImg">
+        <img src="assets/images/image1.jpeg" alt="">
       </div>
-      <div class="col-md-5 mid-grid-right" id="careDiv">
+      <div class="col-lg-7 mid-grid-right" id="careDiv">
         <h2 class="header">About Our Care</h2>
-        <p>Ut mollis hendrerit lectus vel dapibus. Donec eget sapien sed nibh volutpat pellentesque nec ac nunc. Integer nec vehicula ipsum. Aenean gravida erat odio, non pharetra sem malesuada ut. Fusce volutpat, ligula vitae suscipit egestas, ligula arcu condimentum augue, ac varius lectus lacus at quam. Vestibulum sed aliquam turpis. Etiam semper elit in libero aliquet, vitae fermentum nulla gravida. Praesent ut sapien id orci lobortis varius.</p>
-        <p>Sed non nibh porttitor, tristique diam non, lobortis nisl. Proin et mauris ac urna posuere gravida a semper felis. Morbi congue elit eu scelerisque sagittis. Vestibulum blandit quam vitae pretium mollis. Nunc bibendum est a nibh finibus pellentesque.</p>
-        <p>ac urna posuere gravida a semper felis. Morbi congue elit eu scelerisque sagittis. Vestibulum blandit quam vitae pretium mollis. Nunc bibendum est a nibh finibus pellentesque.</p>
+        <p>From the top of your head to your toes, the health of your spine can affect the health of your entire body. Your spinal cord contains thousands of nerves that send messages to your back, brain, and other parts of your body. As people age, bone mass gradually decreases, and the spinal column becomes more compressed. When the spine is impacted, these nerves may become inhibited, leading to serious pain and other issues.</p>
+        <p>In part, this is why chiropractic care is important for the health and well-being of children and adults alike. While age tends to compress and curve the spine, chiropractors work to decompress and realign it to its optimal positioning.</p>
+        <p>By realigning the spine, chiropractors work to restore balance, reducing tension and relieving pain in the process. These techniques also strengthen the spine and promote flexibility, reducing the risk of injury down the road. Many people find that chiropractic care also makes them feel more energized and reduces stress. By reducing tension and stress in the body, both physical and mental health tends to improve.</p>
+        <p>While chiropractic care is widely accepted as an effective treatment for neck/back pain, many people don’t realize it’s a useful technique for adult health and wellness overall. It strengthens the joints and helps prevent symptoms associated with back pain, whether it originate in the neck, mid or low back or any other joint in your body. In addition, it improves coordination and suppresses the onset of ailments such as headaches among countless other benefits. For these reasons alone, everyone from children, professional athletes to the elderly, can benefit from what this practice has to offer.</p>
         <a class="about-btn" href="services.html">Specialties and Techniques</a>
       </div>
       <div class="clearfix"> </div>
     </div>
     <!-- footer -->
     <div class="footer">
-      <div class="container">
-        <p>Footer Goes Here</p>
-      </div>
+        <div class="container foot">
+            <div class="col-lg-4 footerDiv">
+              <h5>Carlsbad Location & Hours</h5>
+              <a href="contact.html" class="location" title="Chiropractic Location - Carlsbad, CA">7220 Avenida Encinas, Unit 110-B<br>Carlsbad, CA</a><br>
+              <h6>Monday: 9am-1:30pm <br>Fri: 2pm-6pm</h6>
+            </div>
+            <div class="col-lg-4 footerDiv">
+              <h5>Palm Springs Location & Hours</h5>
+              <a href="contact.html" class="location" title="Chiropractic Location - Carlsbad, CA">33669 Date Palm Drive<br>Cathedral City, CA</a><br>
+              <h6>Tuesday: 2pm-6pm <br>Thursday: 2pm-6pm</h6>
+            </div>
+            <div class= "col-lg-4 footerDiv">
+              <h5 class="contactDetails">Contact Us</h5>
+              <p class="location">Ph: 714-313-5558</p>
+              <p class="location" id="email">Em: Info@oscarcastrochiropractic.com</p>
+              <p id="mobileEmail"><a class="location" href="contact.html">Email Us Here</a></p>
+            </div>
+        </div>    
     </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

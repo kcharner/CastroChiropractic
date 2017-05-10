@@ -30,29 +30,53 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Dr. Oscar</a></li>
-              <li><a href="services.html">Specialties</a></li>
-              <li><a href="appointments.html">Appointments</a></li>
-              <li><a href="contact.html">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right" id="navList">
+              <li><a href="index.html" class="navItems">Home</a></li>
+              <li><a href="about.html" class="navItems">About Dr. Oscar</a></li>
+              <li><a href="services.html" class="navItems">Specialties</a></li>
+              <li><a href="appointments.html" class="navItems">Appointments</a></li>
+              <li><a href="contact.html" class="navItems">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
     <!-- Content -->
+    <div id="schedulingContent">
     <div class="row">
-        <h1 class="header">SCHEDULE TODAY</h1>
+        <h1 class="header">NEW PATIENTS</h1>
+        <!-- <p>New patients: please arrive approximately 15 minutes prior to your scheduled appointment in order to fill out some brief paperwork. To get started, download the forms below.</p> -->
+        <p class="col-lg-8 col-lg-offset-2" id="patientForms">Please arrive approximately 15 minutes prior to your scheduled appointment in order to fill out some brief paperwork. To get started now, download the following forms:
+        <a class="forms" href="assets/forms/intakeForm.pdf" download><span>Intake Form</span></a> and 
+        <a class="forms" href="assets/forms/hippaForm.pdf" download><span>HIPPA Form</span></a></p>
+    </div>
+    <div class="container">
+        <h1 class="header">SCHEDULE ONLINE</h1>
         <div class="col-lg-10 col-lg-offset-1" id="content">
-            <iframe src="https://evolvesportschiropractic.acuityscheduling.com/" width="100%" height="600" frameborder="0" style="max-height: none; overflow:hidden; height: 698px !important;"></iframe>
+            <iframe src="https://evolvesportschiropractic.acuityscheduling.com/" width="100%" height="698" frameborder="0" style="max-height: 1000; overflow:hidden; height: 698px !important;"></iframe>
         </div>
+    </div>
     </div>
     <!-- footer -->
     <div class="footer">
-        <div class="container">
-            
+            <div class="container foot">
+                <div class="col-lg-4 footerDiv">
+                    <h5>Carlsbad Location & Hours</h5>
+                    <a href="contact.html" class="location" title="Chiropractic Location - Carlsbad, CA">7220 Avenida Encinas, Unit 110-B<br>Carlsbad, CA</a><br>
+                    <h6>Monday: 9am-1:30pm <br>Fri: 2pm-6pm</h6>
+                </div>
+                <div class="col-lg-4 footerDiv">
+                    <h5>Palm Springs Location & Hours</h5>
+                    <a href="contact.html" class="location" title="Chiropractic Location - Carlsbad, CA">33669 Date Palm Drive<br>Cathedral City, CA</a><br>
+                    <h6>Tuesday: 2pm-6pm <br>Thursday: 2pm-6pm</h6>
+                </div>
+                <div class= "col-lg-4 footerDiv">
+                    <h5 class="contactDetails">Contact Us</h5>
+                    <p class="location">Ph: 714-313-5558</p>
+                    <p class="location" id="email">Em: Info@oscarcastrochiropractic.com</p>
+                    <p id="mobileEmail"><a class="location" href="contact.html">Email Us Here</a></p>
+                </div>
+            </div>    
         </div>
-    </div>
     <!-- scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

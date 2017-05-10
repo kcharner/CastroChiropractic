@@ -30,12 +30,12 @@
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-              <li class="navList"><a href="index.html">Home</a></li>
-              <li class="navList"><a href="about.html">About Dr. Oscar</a></li>
-              <li class="navList"><a href="services.html">Specialties</a></li>
-              <li class="navList"><a href="appointments.html">Appointments</a></li>
-              <li class="navList"><a href="contact.html">Contact</a></li>
+          <ul class="nav navbar-nav navbar-right" id="navList">
+              <li><a href="index.html" class="navItems">Home</a></li>
+              <li><a href="about.html" class="navItems">About Dr. Oscar</a></li>
+              <li><a href="services.html" class="navItems">Specialties</a></li>
+              <li><a href="appointments.html" class="navItems">Appointments</a></li>
+              <li><a href="contact.html" class="navItems">Contact</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -47,14 +47,16 @@
                 <h1 class="header">LOCATION & HOURS</h1>
             </div>        
             <div class="col-lg-4 col-lg-offset-1 location">
-                <h4 class="subHeader" id="palmSpringsOffice">Visit Our Palm Springs Office</h4>
+                <h4 class="subHeader">Visit Our Palm Springs Office</h4>
                 <p class="addressInfo">33669 Date Palm Drive<br>Cathedral City, CA 92234</p>
-                <p class="addressInfo hours">Hours: Tues, Thurs: 2pm-6pm</p>
+                <p class="addressInfo hours">Tues, Thurs: 2pm-6pm</p>
+                <p class="btn btn-primary btn-lg maps" id="palmSpringsOffice">View Map</p>
             </div>
             <div class="col-lg-4 col-lg-offset-2 location" id="locationDiv">
-                <h4 class="subHeader" id="sanDiegoOffice">Visit Our San Diego Office</h4>
+                <h4 class="subHeader">Visit Our Carlsbad Office</h4>
                 <p class="addressInfo">7220 Avenida Encinas, Unit 110-B<br>Carlsbad, CA 92011</p>
-                <p class="addressInfo hours">Hours: Tues, Thurs: 2pm-6pm</p>
+                <p class="addressInfo hours">Mon: 9am-1:30pm, Fri: 2-6pm</p>
+                <p class="btn btn-primary btn-lg maps" id="sanDiegoOffice">View Map</p>
             </div>
             <!--- contact-grids -->        
             <div class="contact-grids">
@@ -62,7 +64,7 @@
                 <iframe id="carlsbadMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.3534390462573!2d-117.3112502501402!3d33.09979078078173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc732b81c2e805%3A0x8ffcd26c22db52bd!2s7220+Avenida+Encinas+%23110%2C+Carlsbad%2C+CA+92011!5e0!3m2!1sen!2sus!4v1492180890802" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 <iframe id="palmSpringsMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.328888059153!2d-116.46065865012663!3d33.803824780579404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d2f71e0a657%3A0x2f2ceaa35eadf2a0!2s33669+Date+Palm+Dr%2C+Cathedral+City%2C+CA+92234!5e0!3m2!1sen!2sus!4v1492181556201" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
-                <iframe id="JotFormIFrame-71155296140149" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.us/71155296140149" frameborder="0" style="width:100%; height:0px; border:none;" scrolling="no"> </iframe> <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-71155296140149"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
+                 <iframe id="JotFormIFrame-71155296140149" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.us/71155296140149" frameborder="0" style="width:100%; height:0px; border:none;" scrolling="no"> </iframe> <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-71155296140149"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
             </div>
         </div>
     </div>
