@@ -14,7 +14,7 @@
 	background-color: #BE6E39;
 	color: white;
 	border: none;
-	border-bottom: 2px solid #CDA34F;
+	border-bottom: 2px solid #F4CC70;
 	font-family: Poppins;
 }
 
@@ -51,6 +51,11 @@ ul {
 .navItems {
 	font-family: Yesteryear;
 	font-size: 36px;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: #42313A;
+    /*color: #615049;*/
 }
 
 #logoBlock {
@@ -108,16 +113,17 @@ h6 {
 /*index page*/
 
 .jumbotron {
-	background-color: #F4F1E2;
+	background-color: #f1f3ce;
 	padding-top: 0%;
 	padding-bottom: 0%;
-	border-top: 1px solid #E9CCB1;
+	border-top: 1px solid #DFE166;
 }
 
 #jumboHeader {
 	font-size: 32px;
 	padding-top: 0%; 
 	font-family: Cherry Cream Soda;
+	color: #DE7A22;
 }
 
 #chiroCareContainer {
@@ -129,11 +135,13 @@ h6 {
 }
  
 #chiroCareLabel {
-	background-color: #D5C4A1;
+	background-color: #42313A;
+	background-color: #d5c4a1;
 	margin-top: 9%;
 	margin-bottom: 10%;
 	padding-bottom: 1%;
 	border: 3px solid #E9CCB1;
+	color: black;
 }
 
 .caption-btn {
@@ -163,7 +171,7 @@ h6 {
 
 .mid-grids {
 	margin-top: 3%;
-	background-color: #F4F1E2;
+	background-color: #f1f3ce;
 	border-bottom: 1px solid #E9CCB1;
 }
 
@@ -171,12 +179,21 @@ h6 {
 	background-color: #D5C4A1;
 }
 
+#scheduleBtn {
+	background-color: #75B1A9;
+}
+
+#btn {
+	background-color: #75B1A9;
+}
+
 /*about page*/
 
 #aboutContainer {
 	width: 100%;
 	padding-left: 0%;
-	background-color: #F4F1E2;
+	background-color: #f1f3ce;
+	border-top: 1px solid #DFE166;
 	padding-right: 3%;
 }
 
@@ -204,6 +221,11 @@ h6 {
 	background-image: url("../images/image1.jpeg");
 }
 
+.services {
+	background-color: #f1f3ce;
+	border-top: 1px solid #DFE166;
+}
+
 img {
 	padding-left: 25%;
 }
@@ -225,7 +247,8 @@ img {
 }
 
 #schedulingContent {
-	background-color: #F4F1E2;
+	background-color: #f1f3ce;
+	border-top: 1px solid #DFE166;
 }
 /*contact page*/
 
@@ -259,7 +282,8 @@ img {
 }
 
 .contact {
-	background-color: #F4F1E2;
+	background-color: #f1f3ce;
+	border-top: 1px solid #DFE166;
 }
 
 #contactContainer {
@@ -270,13 +294,11 @@ img {
 .maps {
 	width: 40%;
 	margin-left: 30%;
+	background-color: #75B1A9;
+	border: none;
 }
 
 /*specialties page*/
-
-.services {
-	background-color: #F4F1E2;
-}
 
 .treatmentHeaders {
 	text-align: left;
@@ -632,7 +654,7 @@ img {
 	}
 
 	.foot {
-		padding-left: 0%;
+		padding: 0%;
 	}
 
 	.footerDiv {
